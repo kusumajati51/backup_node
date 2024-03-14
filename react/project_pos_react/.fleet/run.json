@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "command",
+            "name": "run react development",
+            "program": "npx",
+            "args": ["vite", "--port=4000"],
+        },
+
+    ]
+}

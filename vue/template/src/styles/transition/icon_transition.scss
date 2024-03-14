@@ -1,0 +1,10 @@
+.transition-icon {
+    transition: transform 0.3s ease-in-out;
+    transition-duration: 0.3;
+    transition-timing-function: linear;
+}
+
+.icon-rotate {
+    @extend .transition-icon;
+    transform: rotate(180deg);
+}

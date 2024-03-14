@@ -1,0 +1,40 @@
+.bg-draw-grad {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #4158d0;
+    background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #ffcc70 100%);
+    height: 100%;
+}
+
+.rcorners2 {
+    border-radius: 18px;
+    background-color: #21d4fd;
+    background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+    height: calc((100% - 40px)) !important;
+
+    @media screen and (max-width: 1279px) {
+        height: 100% !important;
+        border-radius: 18px;
+    }
+
+    .mini-icon {
+        display: none;
+    }
+
+    .mini-text {
+        display: block;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .profile-name {
+        background: rgba(0, 0, 0, 0.5);
+
+        h5 {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+}

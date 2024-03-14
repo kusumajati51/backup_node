@@ -1,0 +1,22 @@
+
+
+                <v-col class=" fill-height"  style=" background: linear-gradient(to right, #ff0000, #ffffff); height: 100%;" fluid> 
+              <v-container class="d-flex fill-height">
+                <v-row justify="center">
+                  <v-col >
+                    <v-card-title class="text-black text-center text-h6 text-md-h5 text-lg-h4 font-weight-bold"
+                      style="white-space: pre-line;">
+                      <p>
+                        {{ $route.meta.title_text }}
+                      </p>
+                    </v-card-title>
+                    <v-img src="../../assets/image/auth/lady_login.svg" style="
+                             top: 0; left: 0; width: 100%; 
+                             height: 80%; object-fit: contain;" />
+                    <v-card-item class="align-center justify-center ">
+                      <v-btn class="text-white" @click="changePage" color="primary">{{ $route.meta.link_text }}</v-btn>
+                    </v-card-item>
+                  </v-col>
+                </v-row>
+              </v-container>
+            </v-col>

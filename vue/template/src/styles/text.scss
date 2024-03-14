@@ -1,0 +1,16 @@
+
+$text-colors: (
+  "amber": #FFC107,
+  "red": #FF5252,
+  "blue": #448AFF,
+  "green": #69F0AE,
+  "purple": #7C4DFF,
+  "white": #FFFFFF
+  
+);
+
+// @each $color-name, $color-value in $text-colors {
+//   .text-#{$color-name} {
+//     color: $color-value;
+//   }
+// } 

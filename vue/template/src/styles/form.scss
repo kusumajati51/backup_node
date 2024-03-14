@@ -1,0 +1,28 @@
+.divider {
+  display: flex;
+  align-items: center;
+  color: #9da3a9;
+
+  &::before,
+  &::after {
+    flex: 1;
+    content: "";
+    padding: 0.1px;
+    background-color: #e7ecf0;
+    margin: 5px;
+  }
+}
+
+.my-card-form {
+  width: 100%; // This will apply to mobile phones and tablets
+
+  @media (min-width: 1100px) and (max-width: 1432px) {
+    width: 75%; // This will apply to PCs and laptops
+  }
+
+  @media (min-width: 1432px) {
+    width: 60%; 
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+}
